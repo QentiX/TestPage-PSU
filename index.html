@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="static/styles/styleforheader.css"> -->
+    <link rel="stylesheet" href="static/styles/styleformain.css">
+    <link href="https://fonts.googleapis.com/css?family=Red+Hat+Display:300,regular,500,600,700,800,900,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" />
+    <title>Test task</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container _container">
+                <a href="#" class="header__logo"><img src="static/images/logo/Group 31.svg" alt="page-logo"></a>
+                <nav class="header__menu menu">
+                    <ul class="menu__items">
+                        <li class="menu__item">
+                            <a href="#" class="menu__link first">About</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Services</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Works</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Blog</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="burger">
+                    <span class="burger__item"></span>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <!-- <div class="profile__img img">
+                <p class="img__paragraph"><img src="static/images/Student/user-image 1.png" alt="person" class="img__person"></p>
+            </div>
+            <div class="profile__info info">
+                <div class="info__block">
+                    <p class="info__hello">Hello,</p>
+                    <p class="info__name">Timur Suhonosov</p>
+                    <p class="info__specialty">a PolessUP Front-end  Developer</p>
+                </div>
+                <div class="buttom__block">
+                    <a class="buttom__link" href="#">Let’s Talk</a>
+                </div>
+            </div> -->
+            <div class="main__helloprofile profile">
+                <div class="profile__img img">
+                    <p class="img__paragraph"><img src="static/images/Student/user-image 1.png" alt="person" class="img__person"></p>
+                </div>
+                <div class="profile__info info">
+                    <div class="info__block">
+                        <p class="info__hello">Hello,</p>
+                        <p class="info__name">Timur Suhonosov</p>
+                        <p class="info__specialty">a PolessUP Front-end  Developer</p>
+                    </div>
+                    <div class="buttom__block">
+                        <a class="buttom__link" href="#">Let’s Talk</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script>
+        document.querySelector('.burger').addEventListener('click', function(){
+            this.classList.toggle('active');
+            document.querySelector('.menu').classList.toggle('open');
+        })
+    </script>
+</body>
+</html>
